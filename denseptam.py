@@ -12,6 +12,31 @@ from components import Measurement
 from motion import MotionModel
 from loopclosing import LoopClosing
 
+# from pathlib import Path
+# import argparse
+# import cv2
+# import torch
+# from tqdm import tqdm
+# import os
+# import json
+# import yaml
+# import rosbag
+# from cv_bridge import CvBridge
+
+# from DenseMatching.datasets.util import pad_to_same_shape
+# from DenseMatching.model_selection import select_model
+# from DenseMatching.validation.utils import matches_from_flow
+# from DenseMatching.models.inference_utils import estimate_mask
+# from DenseMatching.utils_flow.flow_and_mapping_operations import convert_flow_to_mapping
+# from DenseMatching.validation.utils import (compute_pose_error, compute_epipolar_error,
+#                               estimate_pose, pose_auc, read_image,
+#                               rotate_intrinsics, rotate_pose_inplane,
+#                               scale_intrinsics)
+# from DenseMatching.admin.stats import merge_dictionaries
+# import DenseMatching.admin.settings as ws_settings
+# from DenseMatching.validation.test_parser import define_model_parser, boolean_string
+
+# torch.set_grad_enabled(False)
 
 
 class Tracking(object):
